@@ -57,7 +57,7 @@ defmodule Example do
       {:ok, "hello"} -> IO.puts("World")
     end
 
-    listen
+    listen()
   end
 end
 
